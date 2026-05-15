@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Criar Post - HABIT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO -->
+    <header class="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">HABIT</a>
+            
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="2-categoria.html">Páginas</a></li>
+                    <li><a href="3-destaques.html">Destaques</a></li>
+                    <li><a href="4-newsletter.html">Assinar</a></li>
+                    <li><a href="5-admin-dashboard.html">Admin</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <input type="text" placeholder="Buscar..." class="search-input">
+                <button class="btn btn-outline">Buscar</button>
+                <a href="8-login.html" class="btn btn-outline">Entrar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
+        <div class="admin-layout">
+            
+            <!-- Menu Lateral -->
+            <aside class="admin-sidebar">
+                <h3>Menu</h3>
+                <ul>
+                    <li><a href="5-admin-dashboard.html">Categorias</a></li>
+                    <li><a href="6-admin-criar-post.html">Criar Post</a></li>
+                    <li><a href="7-admin-editor.html">Escolhas do Editor</a></li>
+                    <li><a href="10-admin-usuarios.html">Usuários</a></li>
+                    <li><a href="11-admin-revisao.html">Fila de revisão</a></li>
+                    <li><a href="12-admin-comentarios.html">Fila de comentários</a></li>
+                </ul>
+            </aside>
+
+            <!-- Conteúdo -->
+            <div class="admin-content">
+                <div class="container">
+                    
+                    <section class="section">
+                        <h1>Criar Post</h1>
+                        <form class="form-criar-post">
+                            <input type="text" placeholder="Título" class="form-input">
+                            <textarea placeholder="Escreva aqui... (Editor simulador)" class="form-textarea"></textarea>
+                            
+                            <div class="form-row">
+                                <input type="text" placeholder="Categorias e tags" class="form-input">
+                                <input type="text" placeholder="Upload da imagem de capa" class="form-input">
+                            </div>
+
+                            <div class="form-buttons">
+                                <button type="button" class="btn btn-outline">Salvar rascunho</button>
+                                <button type="button" class="btn btn-outline">Enviar para revisão</button>
+                                <button type="submit" class="btn btn-primary">Publicar (admin)</button>
+                            </div>
+                        </form>
+                    </section>
+
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-tags">
+                <span class="tag">Instagram</span>
+                <span class="tag">Work</span>
+                <span class="tag">Bags</span>
+                <span class="tag">Lamp</span>
+                <span class="tag">Books</span>
+            </div>
+            <p>&copy; 2025 Meu Site • Meu site</p>
+        </div>
+    </footer>
+
+</body>
+</html>
